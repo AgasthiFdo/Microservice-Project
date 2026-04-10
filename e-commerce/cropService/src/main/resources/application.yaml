@@ -1,3 +1,23 @@
+server:
+  port: 8081
+
 spring:
   application:
     name: cropService
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/agms_crop_db
+    username: root
+    password: Mysql1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
