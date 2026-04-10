@@ -1,0 +1,16 @@
+package lk.ijse.cropService.entity;
+
+import jakarta.persistence.Id;
+import lombok.Data;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@EnableDiscoveryClient
+@Data
+public class Crop {
+    @Id
+    private String id;
+
+    private String name;
+
+    private String status;
+}
