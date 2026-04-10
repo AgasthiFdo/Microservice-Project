@@ -17,6 +17,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EurekaServer" />
+        <module name="zoneService" />
         <module name="APIGateway" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
       <module name="APIGateway" options="-parameters" />
       <module name="ConfigServer" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
+      <module name="zoneService" options="-parameters" />
     </option>
   </component>
 </project>
