@@ -20,6 +20,7 @@
         <module name="EurekaServer" />
         <module name="zoneService" />
         <module name="APIGateway" />
+        <module name="cropService" />
         <module name="senserService" />
         <module name="automationService" />
       </profile>
@@ -31,6 +32,7 @@
       <module name="ConfigServer" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
       <module name="automationService" options="-parameters" />
+      <module name="cropService" options="-parameters" />
       <module name="senserService" options="-parameters" />
       <module name="zoneService" options="-parameters" />
     </option>
