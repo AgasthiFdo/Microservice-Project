@@ -19,5 +19,8 @@ public class ZoneService {
         return repository.save(zone);
     }
 
-
+    public ZoneEntity getZone(String id){
+        return repository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Zone not found"));
+    }
 }
