@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Entity
 @Data
-public class ZoneEntity {
+public class Zone {
 
     @Id
     private String id;
