@@ -21,6 +21,7 @@
         <module name="zoneService" />
         <module name="APIGateway" />
         <module name="senserService" />
+        <module name="automationService" />
       </profile>
     </annotationProcessing>
   </component>
@@ -29,6 +30,7 @@
       <module name="APIGateway" options="-parameters" />
       <module name="ConfigServer" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
+      <module name="automationService" options="-parameters" />
       <module name="senserService" options="-parameters" />
       <module name="zoneService" options="-parameters" />
     </option>
