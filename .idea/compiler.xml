@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Annotation profile for ConfigServer" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -19,6 +20,7 @@
         <module name="EurekaServer" />
         <module name="zoneService" />
         <module name="APIGateway" />
+        <module name="senserService" />
       </profile>
     </annotationProcessing>
   </component>
@@ -27,6 +29,7 @@
       <module name="APIGateway" options="-parameters" />
       <module name="ConfigServer" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
+      <module name="senserService" options="-parameters" />
       <module name="zoneService" options="-parameters" />
     </option>
   </component>

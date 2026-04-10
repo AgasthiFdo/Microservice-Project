@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/e-commerce/APIGateway/pom.xml" />
         <option value="$PROJECT_DIR$/e-commerce/zoneService/zoneService/pom.xml" />
         <option value="$PROJECT_DIR$/e-commerce/zoneService/pom.xml" />
+        <option value="$PROJECT_DIR$/e-commerce/senserService/pom.xml" />
       </list>
     </option>
   </component>
