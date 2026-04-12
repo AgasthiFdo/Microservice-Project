@@ -2,6 +2,7 @@ package lk.ijse.cropService.service;
 
 import lk.ijse.cropService.dto.CropRequest;
 import lk.ijse.cropService.entity.Crop;
+import lk.ijse.cropService.entity.CropStatus;
 import lk.ijse.cropService.repository.CropRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

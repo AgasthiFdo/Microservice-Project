@@ -3,6 +3,7 @@ package lk.ijse.cropService.controller;
 import lk.ijse.cropService.dto.CropRequest;
 import lk.ijse.cropService.dto.CropStatusUpdateRequest;
 import lk.ijse.cropService.entity.Crop;
+import lk.ijse.cropService.entity.CropStatus;
 import lk.ijse.cropService.service.CropService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
